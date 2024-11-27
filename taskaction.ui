@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>actionWithTask</class>
+ <widget class="QDialog" name="actionWithTask">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Task Action</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(251, 247, 244);</string>
+  </property>
+  <widget class="QPushButton" name="completeButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: rgb(255, 255, 255);
+    font: 81 8pt &quot;Inter ExtraBold&quot;;
+    background-color: rgb(220, 205, 194);
+    border: 2px solid rgb(220, 205, 194);
+    padding: 5px;
+}
+QPushButton:hover {
+    background-color: rgb(200, 180, 170); 
+    border: 2px solid rgb(200, 180, 170);
+}
+QPushButton:pressed {
+    background-color: rgb(180, 160, 150); 
+    border: 2px solid rgb(180, 160, 150);
+}</string>
+   </property>
+   <property name="text">
+    <string>COMPLETED</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="changeTaskButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: rgb(255, 255, 255);
+    font: 81 8pt &quot;Inter ExtraBold&quot;;
+    background-color: rgb(220, 205, 194);
+    border: 2px solid rgb(220, 205, 194);
+    padding: 5px;
+}
+QPushButton:hover {
+    background-color: rgb(200, 180, 170); 
+    border: 2px solid rgb(200, 180, 170);
+}
+QPushButton:pressed {
+    background-color: rgb(180, 160, 150); 
+    border: 2px solid rgb(180, 160, 150);
+}</string>
+   </property>
+   <property name="text">
+    <string>CHANGE TASK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: rgb(255, 255, 255);
+    font: 81 8pt &quot;Inter ExtraBold&quot;;
+    background-color: rgb(220, 205, 194);
+    border: 2px solid rgb(220, 205, 194);
+    padding: 5px;
+}
+QPushButton:hover {
+    background-color: rgb(200, 180, 170); 
+    border: 2px solid rgb(200, 180, 170);
+}
+QPushButton:pressed {
+    background-color: rgb(180, 160, 150); 
+    border: 2px solid rgb(180, 160, 150);
+}</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
